@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fixed-rsses on caramelomartins&#39; ~/</title>
+    <link>http://caramelomartins.github.io/fixed/index.xml</link>
+    <description>Recent content in Fixed-rsses on caramelomartins&#39; ~/</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 22 Aug 2015 06:42:21 -0700</lastBuildDate>
+    <atom:link href="http://caramelomartins.github.io/fixed/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>About</title>
+      <link>http://caramelomartins.github.io/about/</link>
+      <pubDate>Sat, 22 Aug 2015 06:42:21 -0700</pubDate>
+      
+      <guid>http://caramelomartins.github.io/about/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m Hugo Martins, wannabe developer and maker of tools from Lisbon, Portugal.&lt;/p&gt;
+
+&lt;p&gt;I am currently a &lt;strong&gt;Systems Developer&lt;/strong&gt; for &lt;a href=&#34;http://www.claranet.co.uk/&#34;&gt;Claranet&lt;/a&gt; and I am working towards my Master&amp;rsquo;s degree in Information and Business Systems. I also seem to have a Bachelor&amp;rsquo;s degree in Computer Engineering.&lt;/p&gt;
+
+&lt;p&gt;I have been working with computers since I was 13 years old and my first program was written in &lt;a href=&#34;https://en.wikipedia.org/wiki/Visual_Basic&#34;&gt;Visual BASIC 5.0&lt;/a&gt; - it was a calculator. Unfortunately, I lost the code somewhere with the passing of time.&lt;/p&gt;
+
+&lt;p&gt;I can be found online in several places. I usually code as &lt;a href=&#34;https://github.com/caramelomartins&#34;&gt;caramelomartins&lt;/a&gt;, read as &lt;a href=&#34;https://www.goodreads.com/user/show/7832126-hugo-martins&#34;&gt;Hugo Martins&lt;/a&gt;, watch movies or TV shows as &lt;a href=&#34;https://trakt.tv/users/caramelomartins&#34;&gt;caramelomartins&lt;/a&gt; or lurk on &lt;a href=&#34;https://news.ycombinator.com/user?id=caramelomartins&#34;&gt;Hacker News&lt;/a&gt; and &lt;a href=&#34;https://stackoverflow.com/users/6461671&#34;&gt;StackOverflow&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I also occasionally &lt;a href=&#34;https://www.instagram.com/caramelo.martins/&#34;&gt;take pictures&lt;/a&gt; of not-always-interesting things. Sometimes I write here too.&lt;/p&gt;
+
+&lt;p&gt;I am a young developer with an interest in &lt;strong&gt;building tools&lt;/strong&gt; that expand the platforms with which people work to help them create more and better things.&lt;/p&gt;
+
+&lt;p&gt;Specially, I’m interested in joining my creativity to my engineering knowledge to &lt;strong&gt;solve problems and automate tasks&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;You can review some of my projects in the &lt;a href=&#34;http://caramelomartins.github.io/code&#34;&gt;Code&lt;/a&gt; section.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Code</title>
+      <link>http://caramelomartins.github.io/code/</link>
+      <pubDate>Sat, 22 Aug 2015 06:42:21 -0700</pubDate>
+      
+      <guid>http://caramelomartins.github.io/code/</guid>
+      <description>
+
+&lt;p&gt;Here is a list of some of the projects I have either created or worked on with other people. Also, there&amp;rsquo;s a list of open source projects I have contributed to.&lt;/p&gt;
+
+&lt;p&gt;I have categorized them as best as it was possible for ease of understanding.&lt;/p&gt;
+
+&lt;h3 id=&#34;algorithms&#34;&gt;Algorithms&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/caramelomartins/algorithms&#34;&gt;algorithms&lt;/a&gt; is a repository that holds the implementation of some algorithms I have written along the way.&lt;/p&gt;
+
+&lt;h3 id=&#34;curation&#34;&gt;Curation&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/caramelomartins/awesome-linters&#34;&gt;awesome-linters&lt;/a&gt; is a curation of the best linting tools available for several programming languages. I takes inspiration from the Awesome lists &lt;a href=&#34;https://github.com/sindresorhus&#34;&gt;sindresorhus&lt;/a&gt; has created.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/caramelomartins/awesome-standards&#34;&gt;awesome-standards&lt;/a&gt; is a curation of some interesting coding standards and convetions that are either used in projects or companies. This can be used as inspiration for when developing a specific new convention for a project.&lt;/p&gt;
+
+&lt;h3 id=&#34;configuration&#34;&gt;Configuration&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/caramelomartins/dotfiles&#34;&gt;dotfiles&lt;/a&gt; are the .files, scripts and environment setup used in my Ubuntu machine.&lt;/p&gt;
+
+&lt;h3 id=&#34;documentation&#34;&gt;Documentation&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://cfdocs.org/&#34;&gt;CFDocs&lt;/a&gt; is a repository that holds documentation for the ColdFusion Markup Language. Since I had the need to learn the language I have contributed with some documents to the project.&lt;/p&gt;
+
+&lt;h3 id=&#34;miscellaneous&#34;&gt;Miscellaneous&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/MiguelPires/polyglot&#34;&gt;polyglot&lt;/a&gt; is a programming language detector written in Python 2.7.&lt;/p&gt;
+
+&lt;h3 id=&#34;scripting&#34;&gt;Scripting&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/caramelomartins/wifi-password.pl&#34;&gt;wifi-password.pl&lt;/a&gt; is a simple and fast way to get a WiFi password without having to go through Network settings or check the device. It was written in Perl so that I could get the basics of the language.&lt;/p&gt;
+
+&lt;h3 id=&#34;translation&#34;&gt;Translation&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/keeweb/keeweb&#34;&gt;KeeWeb&lt;/a&gt; is a cross-platform password manager compatible with KeePass. I have helped with the translation of the application from English to Portuguese.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
