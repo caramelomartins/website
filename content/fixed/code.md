@@ -24,13 +24,13 @@ I have categorized them as best as it was possible for ease of understanding.
 
 ### Documentation
 
-[CFDocs](https://cfdocs.org/) is a repository that holds documentation for the ColdFusion Markup Language. Since I had the need to learn the language I have contributed with some documents to the project.
+[CFDocs](https://cfdocs.org/) is a repository that holds documentation for the ColdFusion Markup Language. Since I had the need to learn the language I have contributed with some documents to the project. I did this because I used the website as a source of knowledge and wanted to give back.
 
 [Rocket.Chat.Docs](https://rocket.chat/docs/) is the documentation for the [Rocket.Chat's](https://rocket.chat/) API. While investigating their API I was able to contribute back some patches for the documentation website.
 
 ### Miscellaneous
 
-[polyglot](https://github.com/MiguelPires/polyglot) is a programming language detector written in Python 2.7.
+[polyglot](https://github.com/MiguelPires/polyglot) is a programming language detector written in Python 2.7. I wrote this to fiddle with Python and understand more about it.
 
 ### Scripting
 
