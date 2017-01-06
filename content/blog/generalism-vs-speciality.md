@@ -9,9 +9,10 @@ date: "2017-01-06T23:09:34Z"
 For most of my life I've been a generalist. I've been a jack of all trades. I know enough about a lot of different subjects that can help me fix things but I don't have deep, or even below, the surface knowledge on most things.
 
 There are some consequences to this:  
-- Impostor syndrome. It happens a lot to me. When you feel that you are not worthy of being congratulated by your achievements because "it was just a little thing".
-- Having trouble focusing one only one thing at a time. My mind just wanders too much.
-- Not being able to actually learn something new properly because you are only just being pulled from all places as the guy that knows a lot.
+
+  * Impostor syndrome. It happens a lot to me. When you feel that you are not worthy of being congratulated by your achievements because "it was just a little thing".
+  * Having trouble focusing one only one thing at a time. My mind just wanders too much.
+  * Not being able to actually learn something new properly because you are only just being pulled from all places as the guy that knows a lot.
 
 This is just draining but I really like to be a generalist. I like learning new things and I like knowing how to fix issues.
 
