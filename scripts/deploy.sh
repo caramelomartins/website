@@ -2,9 +2,9 @@
 
 echo "Building website..."
 
-cd .. 
+cd ..
 hugo -t cocoa
-cd ../public
+cd "../public"
 
 echo "Copying new website into other repo..."
 
