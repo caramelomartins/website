@@ -2,6 +2,8 @@
 title: November 2016 - Digest
 date: "2016-12-02T01:47:00"
 draft: false
+category:
+    - personal
 ---
 
 This month I have decided to take a step back and understand what I have been doing. I might be doing this from now on or simply this month but I hope I carry this one.
