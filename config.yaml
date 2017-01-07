@@ -1,6 +1,7 @@
 ---
 baseurl: "http://caramelomartins.github.io/"
 title: "caramelomartins' ~/"
+googleAnalytics: "UA-88410684-2"
 
 permalinks:
     fixed: ":title/"
