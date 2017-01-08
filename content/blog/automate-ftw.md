@@ -1,7 +1,7 @@
 ---
 title: "Automate Simple Deploy Workflows - Cool!"
 draft: false
-date:"2017-01-08T23:44:20Z"
+date: "2017-01-08T23:44:20Z"
 ---
 
 I recently changed my blog from [Jekyll](https://jekyllrb.com/) to [Hugo](https://gohugo.io/) because it's fast, has custom support theme, **shares my name** and I never got along with Jekyll honestly.
@@ -10,7 +10,7 @@ With changing my configuration I had to make some changes to the workflow I used
 
 With this new setup in mind I got tired really fast of deploying the compiled code from one repository to another and because I'm lazy I decided to automate the deployiment with a simple script called [deploy-sh](https://github.com/caramelomartins/website/blob/master/scripts/deploy.sh).
 
-The script is very small:
+The script is very simple:
 
 ```
 #!/bin/bash
