@@ -14,7 +14,7 @@ I have categorized them as best as it was possible for ease of understanding.
 
 ### Curation
 
-[awesome-linters](https://github.com/caramelomartins/awesome-linters) is a curation of the best linting tools available for several programming languages. I takes inspiration from the Awesome lists [sindresorhus](https://github.com/sindresorhus) has created.
+[awesome-linters](https://github.com/caramelomartins/awesome-linters) is a curation of the best linting tools available for several programming languages. I took inspiration from the Awesome lists [sindresorhus](https://github.com/sindresorhus) has created.
 
 [awesome-standards](https://github.com/caramelomartins/awesome-standards) is a curation of some interesting coding standards and convetions that are either used in projects or companies. This can be used as inspiration for when developing a specific new convention for a project.
 
