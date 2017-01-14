@@ -9,3 +9,15 @@ I didn't want to have to manage separate branches and git subtrees to do this an
 ## Structure
 
 This project uses the [Hugo](https://gohugo.io/) static site generator for compiling the source code into the artifacts that are present in the [caramelomartins.github.io](https://github.com/caramelomartins/caramelomartins.github.io) repository.
+
+Most of this is based on Hugo's predefined structure:
+
+- `content` - handles all the fixed and dynamic content.
+- `scripts` - holds scripts that help validate and deploy the website.
+- `static` - stores static assets.
+- `themes` - stores the themes used in the website as git submodules.
+
+## License
+
+[MIT](LICENSE)
+
