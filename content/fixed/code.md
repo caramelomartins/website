@@ -10,7 +10,7 @@ I have categorized them as best as it was possible for ease of understanding.
 
 ### Curation
 
-[awesome-linters](https://github.com/caramelomartins/awesome-linters) is a curation of the best linting tools available for several programming languages. I took inspiration from the Awesome lists [sindresorhus](https://github.com/sindresorhus) has created.
+[awesome-linters](https://github.com/caramelomartins/awesome-linters) is a curation of the best linting tools available for several programming languages.
 
 ### Configuration
 
