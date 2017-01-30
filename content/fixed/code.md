@@ -10,26 +10,26 @@ I have categorized them as best as it was possible for ease of understanding.
 
 ### Curation
 
-[awesome-linters](https://github.com/caramelomartins/awesome-linters) is a curation of the best linting tools available for several programming languages.
+[awesome-linters](https://github.com/caramelomartins/awesome-linters) (2014) is a curation of the best linting tools available for several programming languages.
 
 ### Configuration
 
-[dotfiles](https://github.com/caramelomartins/dotfiles) are the .files, scripts and environment setup used in my Ubuntu machine.
+[dotfiles](https://github.com/caramelomartins/dotfiles) (2015) are the .files, scripts and environment setup used in my Ubuntu machine.
 
 ### Documentation
 
-[CFDocs](https://cfdocs.org/) is a repository that holds documentation for the ColdFusion Markup Language. Since I had the need to learn the language I have contributed with some documents to the project. I did this because I used the website as a source of knowledge and wanted to give back.
+[CFDocs](https://cfdocs.org/) (2016) is a repository that holds documentation for the ColdFusion Markup Language. Since I had the need to learn the language I have contributed with some documents to the project. I did this because I used the website as a source of knowledge and wanted to give back.
 
-[Rocket.Chat.Docs](https://rocket.chat/docs/) is the documentation for the [Rocket.Chat's](https://rocket.chat/) API. While investigating their API I was able to contribute back some patches for the documentation website.
+[Rocket.Chat.Docs](https://rocket.chat/docs/) (2017) is the documentation for the [Rocket.Chat's](https://rocket.chat/) API. While investigating their API I was able to contribute back some patches for the documentation website.
 
 ### Miscellaneous
 
-[polyglot](https://github.com/MiguelPires/polyglot) is a programming language detector written in Python 2.7. I wrote this to fiddle with Python and understand more about it.
+[polyglot](https://github.com/MiguelPires/polyglot) (2014) is a programming language detector written in Python 2.7. I wrote this to fiddle with Python and understand more about it.
 
 ### Scripting
 
-[wifi-password.pl](https://github.com/caramelomartins/wifi-password.pl) is a simple and fast way to get a WiFi password without having to go through Network settings or check the device. It was written in Perl so that I could get the basics of the language.
+[wifi-password.pl](https://github.com/caramelomartins/wifi-password.pl) (2016) is a simple and fast way to get a WiFi password without having to go through Network settings or check the device. It was written in Perl so that I could get the basics of the language.
 
 ### Translation
 
-[KeeWeb](https://github.com/keeweb/keeweb) is a cross-platform password manager compatible with KeePass. I have helped with the translation of the application from English to Portuguese.
+[KeeWeb](https://github.com/keeweb/keeweb) (2016) is a cross-platform password manager compatible with KeePass. I have helped with the translation of the application from English to Portuguese.
