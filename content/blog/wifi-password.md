@@ -3,7 +3,6 @@ title: wifi-password in Perl
 date: "2016-08-03T00:00:00"
 category:
   - projects
-tags:
   - perl
 ---
 

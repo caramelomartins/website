@@ -2,6 +2,8 @@
 title: "Generalism vs Speciality"
 draft: false
 date: "2017-01-06T23:09:34Z"
+categories:
+    - personal
 ---
 
 **_Note: This is mostly a brain dump with no coherence whatsoever._**

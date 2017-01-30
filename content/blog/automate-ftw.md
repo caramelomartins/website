@@ -2,6 +2,9 @@
 title: "Automate Simple Deploy Workflows - Cool!"
 draft: false
 date: "2017-01-08T23:44:20Z"
+categories:
+    - personal
+    - bash
 ---
 
 I recently changed my blog from [Jekyll](https://jekyllrb.com/) to [Hugo](https://gohugo.io/) because it's fast, has custom support theme, **shares my name** and I never got along with Jekyll, honestly.

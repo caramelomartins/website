@@ -3,6 +3,7 @@ title: Let Hacktoberfest Begin!
 date: "2016-09-30T00:00:00"
 category:
   - oss
+  - personal
 ---
 
 Earlier this week I read a link post on [Hacker News](https://news.ycombinator.com/news) that mentioned Hacktoberfest. Since I'm in _love_ with the German language currently and always like mashup names I thought I'd have a look at it.

@@ -3,8 +3,6 @@ title: Hacktoberfest - The End
 date: "2016-10-31T00:00:00"
 category:
   - oss
-tags:
-  - translation
 ---
 The end as come for Hacktoberfest and I have bad news.
 

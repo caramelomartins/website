@@ -2,8 +2,7 @@
 title: Extracting Data from PostgreSQL
 date: "2016-10-10T00:00:00"
 category:
-  - helpers
-tags:
+  - snippets
   - postgresql
 ---
 

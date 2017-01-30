@@ -3,7 +3,6 @@ title: GPU Memory Splitting on Raspbian Jessie
 date: "2016-09-05T00:00:00"
 category:
   - helpers
-tags:
   - raspberry pi
 ---
 
