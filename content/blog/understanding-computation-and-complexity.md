@@ -1,5 +1,5 @@
 ---
-title: "Understanding the Theory of Computation"
+title: "Trying to Understand Computation & Complexity"
 draft: false
 date: "2017-02-01T22:13:07Z"
 categories:
