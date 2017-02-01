@@ -1,6 +1,6 @@
 ---
 title: "Understanding the Theory of Computation"
-draft: true
+draft: false
 date: "2017-02-01T22:13:07Z"
 categories:
     - computation
