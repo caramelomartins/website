@@ -1,6 +1,11 @@
 ---
-baseurl: "http://caramelomartins.github.io/"
+baseurl: "http://hugomartins.io/"
+builddrafts: false
+contentdir: "content"
+layoutdir: "layout"
+publishdir: "public"
 title: "caramelomartins' ~/"
+author: "Hugo Martins"
 googleAnalytics: "UA-88410684-2"
 
 permalinks:
@@ -13,6 +18,9 @@ params:
 
     initials: "HM"
     author: "Hugo Martins"
+
+    highlightjs: true
+    lang: "en"
 
     github: "https://github.com/caramelomartins"
 ...
