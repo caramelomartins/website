@@ -1,0 +1,6 @@
+language: bash
+
+before_script:
+    - wget https://github.com/spf13/hugo/releases/download/v0.17/hugo_0.17_Linux-64bit.tar.gz
+    - tar -xvf hugo_0.17_Linux-64bit.tar.gz
+    - ls
