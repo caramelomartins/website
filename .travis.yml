@@ -1,11 +1,7 @@
 language: bash
 
-required: sudo
-
-before_script:
-    - wget https://github.com/spf13/hugo/releases/download/v0.17/hugo_0.17_Linux-64bit.tar.gz
-    - tar -xvf hugo_0.17_Linux-64bit.tar.gz
-    - ls
+install:
+    - go get -v github.com/spf13/hugo
 
 script:
     - bash scripts/compile.sh
