@@ -5,7 +5,7 @@ required: sudo
 before_script:
     - wget https://github.com/spf13/hugo/releases/download/v0.17/hugo_0.17_Linux-64bit.tar.gz
     - tar -xvf hugo_0.17_Linux-64bit.tar.gz
-    - sudo cp -r hugo_0.17_linux_amd64 /usr/local/bin
+    - ls
 
 script:
     - bash scripts/compile.sh
