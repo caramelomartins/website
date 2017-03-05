@@ -1,11 +1,5 @@
 #!/bin/bash
 
-echo "Building website..."
-
-cd ..
-hugo -t cocoa > /dev/null 2>&1
-cd "public/" || exit
-
 echo "Copying new website into other repo..."
 
 cp -R ./* ../../caramelomartins.github.io/
