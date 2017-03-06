@@ -5,7 +5,10 @@ install:
 
 before_script:
     - bash scripts/compile.sh
-    
+
+script:
+    - true
+
 branches:
     only:
         - master
