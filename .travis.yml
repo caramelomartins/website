@@ -2,8 +2,10 @@ language: go
 
 install:
     - go get -v github.com/spf13/hugo
-    - bash scripts/compile.sh
 
+before_script:
+    - bash scripts/compile.sh
+    
 branches:
     only:
         - master
