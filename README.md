@@ -1,5 +1,7 @@
 # hugomartins.io
 
+[![Build Status](https://travis-ci.org/caramelomartins/website.svg?branch=master)](https://travis-ci.org/caramelomartins/website)
+
 This is the source code for my personal website that is currently hosted @ [hugomartins.io](http://hugomartins.io).
 
 I have the website hosted on Github Pages and as such I also use the repo [caramelomartins.github.io](https://github.com/caramelomartins/caramelomartins.github.io) as a hosting system. For such a solution I usually deploy from this repository into the other repository.
