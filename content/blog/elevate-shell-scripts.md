@@ -1,5 +1,5 @@
 ---
-date: "2017-03-25T00:17:46Z"
+date: "2017-03-27T00:17:46Z"
 title: "On Elevating Shell Scripts"
 draft: false
 categories:
@@ -29,19 +29,21 @@ I went on to Google-land to search for a better wait to do it. Right away I foun
 
 One of the best resources I found was [this](http://unix.stackexchange.com/questions/28791/prompt-for-sudo-password-and-programmatically-elevate-privilege-in-bash-script) answer on [unix.stackexchange](http://unix.stackexchange.com/).
 
-Reading through that answer I was intriged by five things, in those snippets: `$EUID`, `$0`, `$@`, `$?` and `$UID`. These looked like interesting, useful Bash environment variables. I research a little bit more to find out what they are.
+Reading through that answer I am intriged by five things, in those snippets: `$EUID`, `$0`, `$@`, `$?` and `$UID`. These looked like interesting, useful Bash environment variables. I research a little bit more to find out what they are.
 
-`$EUID` does this...
+Again, I turned my attention to StackOverflow, specifically [this answer](http://stackoverflow.com/questions/27669950/difference-between-euid-and-uid), [this one](http://stackoverflow.com/questions/27669950/difference-between-euid-and-uid) and Wikipedia. I not always use StackOverflow but sometimes it helps a ton. `$EUID` and `$UID`, represent two separate things. `$UID` gives the user identifier which identifies the real user ID of the calling process, in the system. We can use `$EUID` to give the effective user, in the system. Apparently, there is also the file system, saved and real (`ruid`). [1] The differences between all this types of users are still unclear to me but, what I know so far, it that a superuser will always have `$EUID` as 0. An important note is that this works only for `bash`.
 
-`$0` does this...
+The remaining parts of this are also `bash` variables:
 
-`$@` does this...
+- `$0` is a positional parameter that refers to the filename of the script in execution. So, it is effectively argument - 1.
 
-`$?` does this...
+- `$@` represents the parameters, "without interpretation or expansion". It will output the parameters as they were written.
 
-`$UID` does this...
+- `$?` will get you the exit status of a command.
 
-The top voted answer was an interesting way to ask the system: "Are you running this as superuser?". If the system reply that it wasn't running it as super user, it would re-run the script preprending `sudo`. The full answer is very short but very powerful:
+All of this can be further investigated on [Advanced Bash-Scripting Guide's Chapter 9](http://tldp.org/LDP/abs/html/internalvariables.html).
+
+The top voted answer was an interesting way to ask the system: "Are you running this as superuser?". If the system reply that it wasn't running it as super user, it would re-run the script, along with its parameters, preprending `sudo`. The full answer is very short but very powerful:
 
 ```
 if [ $EUID != 0 ]; then
@@ -53,3 +55,5 @@ fi
 So, anywhere on top of this solution, you let the user know that elevated permissions will be required. This provides an interesting command line interface, to elevate your permission level, without the user having to know that he must run it as a superuser.
 
 Of course, all this has security implications that must be consider. Then again, running anything, as a superuser, without trusting what you are running wouldn't be much of an option either.
+
+[1] http://man7.org/linux/man-pages/man2/getuid.2.html
