@@ -5,10 +5,8 @@ install:
 
 script:
     - bash scripts/compile.sh
-
-after_success:
     - bash scripts/deploy.sh
-    
+
 branches:
     only:
         - master
