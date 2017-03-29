@@ -21,4 +21,4 @@ echo "Removing built assets..."
 rm -rf caramelomartins.github.io/* caramelomartins.github.io/.git
 rmdir caramelomartins.github.io
 
-exit 0;
+exit 1;
