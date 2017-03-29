@@ -3,11 +3,9 @@ language: go
 install:
     - go get -v github.com/spf13/hugo
 
-before_script:
-    - bash scripts/compile.sh
-
 script:
-    - true
+    - bash scripts/compile.sh
+    - bash scripts/deploy-sh
 
 branches:
     only:
