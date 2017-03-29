@@ -5,7 +5,7 @@ install:
 
 script:
     - bash scripts/compile.sh
-    - bash scripts/deploy-sh
+    - bash scripts/deploy.sh
 
 branches:
     only:
