@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-if ! hugo -v -t cocoa ; then
+if ! hugo -t cocoa ; then
     exit 1;
 fi
 
