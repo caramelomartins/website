@@ -6,6 +6,7 @@ git clone -q "https://caramelomartins:$GITHUB_API_KEY@github.com/caramelomartins
 echo "Setting up git configuration..."
 git config --global user.email "$GITHUB_EMAIL"
 git config --global user.name "$GITHUB_NAME"
+git config --global push.default matching
 
 echo "Removing contents..."
 rm -r caramelomartins.github.io/*
@@ -25,4 +26,4 @@ echo "Removing built assets..."
 rm -rf caramelomartins.github.io/* caramelomartins.github.io/.git
 rmdir caramelomartins.github.io
 
-exit 1;
+exit 0;
