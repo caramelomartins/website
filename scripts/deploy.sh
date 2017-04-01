@@ -3,6 +3,10 @@
 echo "Cloning caramelomartins.github.io..."
 git clone -q "https://caramelomartins:$GITHUB_API_KEY@github.com/caramelomartins/caramelomartins.github.io.git"
 
+echo "Setting up git configuration..."
+git config --global user.email "$GITHUB_EMAIL"
+git config --global user.name "$GITHUB_NAME"
+
 echo "Removing contents..."
 rm -r caramelomartins.github.io/*
 
