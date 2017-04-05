@@ -2,6 +2,8 @@
 date: "2017-03-29T20:36:23+01:00"
 title: "What about the users?"
 draft: false
+categories:
+    - personal
 ---
 
 What a about the users?
