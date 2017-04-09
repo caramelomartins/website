@@ -71,7 +71,7 @@ echo "Cloning caramelomartins.github.io..."
 git clone -q "https://caramelomartins:$GITHUB_API_KEY@github.com/caramelomartins/caramelomartins.github.io.git"
 ```
 
-After this is completed, we force the configuration of `git` on Travis CI. This allows me to control who push the changes from the Travis CI settings' pages.
+After this is completed, we force the configuration of `git` on Travis CI. This allows me to control who pushes changes from the Travis CI settings' pages.
 
 ```
 echo "Setting up git configuration..."
@@ -130,7 +130,7 @@ In this case I only wanted to push to my public repo. That's exactly the only pe
 
 With Travis CI, I just wanted to have it export 3 shell environment variables. The ones I talked initially. So I configured:
 
-- `$GITHUB_API_KEY`
+- `GITHUB_API_KEY`
 - `GITHUB_EMAIL`
 - `GITHUB_NAME`
 
