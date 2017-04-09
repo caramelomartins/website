@@ -12,6 +12,23 @@ permalinks:
     fixed: ":title/"
     blog: "blog/:slug/"
 
+menu:
+    main:
+        -   Name: "Blog"
+            Weight: -120
+            Identifier: "blog"
+            URL: "/blog/"
+
+        -   Name: "About"
+            Weight: -110
+            Identifier: "about"
+            URL: "/about/"
+
+        -   Name: "Code"
+            Weight: -100
+            Identifier: "code"
+            URL: "/code/"
+
 params:
     dateform: "Jan 2, 2006"
     dateformfull: "Mon Jan 2 2006 15:04:05 MST"
