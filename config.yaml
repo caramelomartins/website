@@ -35,9 +35,11 @@ params:
 
     initials: "HM"
     author: "Hugo Martins"
+    selfintro: "Thoughts on programming, engineering and curly brackets."
 
     highlightjs: true
     lang: "en"
 
     github: "https://github.com/caramelomartins"
+    linkedin: "https://www.linkedin.com/in/hugofcsmartins"
 ...
