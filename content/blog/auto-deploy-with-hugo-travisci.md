@@ -1,7 +1,11 @@
 ---
 date: "2017-04-09T17:50:39+01:00"
 title: "Automatic Deploys with Hugo, TravisCI & Github Pages"
-draft:
+draft: false
+categories:
+    - bash
+    - continuous integration
+    - continuous deployment
 ---
 **tl;dr**
 
