@@ -26,6 +26,8 @@ I have categorized them as best as it was possible for ease of understanding.
 
 [polyglot](https://github.com/MiguelPires/polyglot) is a programming language detector written in Python 2.7. I wrote this to fiddle with Python and understand more about it.
 
+[hackerrank](https://github.com/caramelomartins/hackerrank) is a collection of solutions that I submitted to HackerRank competitions or practice exercises.
+
 ### Scripting
 
 [wifi-password.pl](https://github.com/caramelomartins/wifi-password.pl) is a simple and fast way to get a WiFi password without having to go through Network settings or check the device. It was written in Perl so that I could get the basics of the language.
