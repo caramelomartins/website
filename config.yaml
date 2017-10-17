@@ -6,7 +6,7 @@ layoutdir: "layout"
 publishdir: "public"
 title: "caramelomartins' ~/"
 author: "Hugo Martins"
-googleAnalytics: "UA-88410684-2"
+theme: cocoa
 
 permalinks:
     fixed: ":title/"
