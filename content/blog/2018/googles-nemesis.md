@@ -1,6 +1,6 @@
 ---
 title: "\"Google's nemesis...\""
-date: 2018-02-14T16:21:0+01:00
+date: 2018-02-14T16:21:00+01:00
 draft: false
 categories:
     - reads
