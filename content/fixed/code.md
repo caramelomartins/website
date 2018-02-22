@@ -4,9 +4,7 @@ draft: false
 title: "Code"
 ---
 
-Here is a list of some of the projects I have either created or worked on with other people. Also, there's a list of open source projects I have contributed to.
-
-I have categorized them as best as it was possible for ease of understanding.
+Here is a list of some of the projects I have either created or worked on with other people. Also, there's a list of open source projects I have contributed to. I have categorized them as best as it was possible for ease of understanding.
 
 ### Curation
 
