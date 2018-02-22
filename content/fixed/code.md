@@ -26,7 +26,7 @@ I have categorized them as best as it was possible for ease of understanding.
 
 [polyglot](https://github.com/MiguelPires/polyglot) is a programming language detector written in Python 2.7. I wrote this to fiddle with Python and understand more about it.
 
-[hackerrank](https://github.com/caramelomartins/hackerrank) is a collection of solutions that I submitted to HackerRank competitions or practice exercises.
+[hackerrank](https://github.com/caramelomartins/hackerrank) is a collection of solutions that I submitted to HackerRank competitions or practice exercises. Mainly PHP, Python, Ruby and Shell scripts.
 
 [hugomartins.io](https://github.com/caramelomartins/website) is this website, a Hugo-based static website.
 
