@@ -5,7 +5,7 @@ title: "About"
 ---
 I'm Hugo Martins, a software engineer and maker of tools from Lisbon, Portugal.
 
-I am currently a **Systems Developer** for [Claranet](http://www.claranet.co.uk/). I have a Bachelor's degree in Computer Science and I am working towards my Master's degree in Information and Business Systems. My current research interests are access control, information security and blockchain-based technologies.
+I am currently a **Systems Developer** for [Claranet](http://www.claranet.co.uk/). I have a Bachelor's degree in Computer Science and I am working towards my Master's degree in Information and Business Systems. Current research interests are access control, information security and blockchain-based technologies.
 
 I have been working with computers since I was 14 years old and my first program was written in [Visual BASIC 5.0](https://en.wikipedia.org/wiki/Visual_Basic) - it was a calculator. Unfortunately, I lost the code somewhere with the passing of time.
 
