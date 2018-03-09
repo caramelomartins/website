@@ -20,6 +20,8 @@ Here is a list of some of the projects I have either created or worked on with o
 
 [Rocket.Chat.Docs](https://rocket.chat/docs/) is the documentation for the [Rocket.Chat's](https://rocket.chat/) API. While investigating their API I was able to contribute back a patch for the documentation website.
 
+[Nextclould Documentation](https://docs.nextcloud.com/) is the documentation for [Nextcloud](https://nextcloud.com/). I contributed to this as part of my Hacktoberfest's participation, in 2017, with a couple of pull requests to fix some identified issues.
+
 ### Miscellaneous
 
 [polyglot](https://github.com/MiguelPires/polyglot) is a programming language detector written in Python 2.7. I wrote this to fiddle with Python and understand more about it.
