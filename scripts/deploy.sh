@@ -18,7 +18,7 @@ HASH=$(git rev-parse --short HEAD)
 echo "Pushing new contents..."
 cd caramelomartins.github.io || exit
 git add ./*
-git commit -q -m "Auto Deploy - $HASH" -m "Built from: https://github.com/caramelomartins/website/commit/$HASH." --allow-empty
+git commit -q -m "Auto Deploy - $HASH" -m "Built from: https://github.com/caramelomartins/hugomartins.io/commit/$HASH." --allow-empty
 git push -q "https://caramelomartins:$GITHUB_API_KEY@github.com/caramelomartins/caramelomartins.github.io.git"
 cd ..
 
