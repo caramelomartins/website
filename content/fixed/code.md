@@ -22,6 +22,8 @@ Here is a list of some of the projects I have either created or worked on with o
 
 [Nextclould Documentation](https://docs.nextcloud.com/) is the documentation for [Nextcloud](https://nextcloud.com/). I contributed to this as part of my Hacktoberfest's participation, in 2017, with a couple of pull requests to fix some identified issues.
 
+[pytest](https://docs.pytest.org/en/latest/) is a Python testing framework. I started using `pytest` for some of my Python projects and decided to contribute back by fixing up some identified problems in the documentation.
+
 ### Miscellaneous
 
 [polyglot](https://github.com/MiguelPires/polyglot) is a programming language detector written in Python 2.7. I wrote this to fiddle with Python and understand more about it.
