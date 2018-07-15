@@ -22,8 +22,6 @@ Here is a list of some of the projects I have either created or worked on with o
 
 [Nextclould Documentation](https://docs.nextcloud.com/) is the documentation for [Nextcloud](https://nextcloud.com/). I contributed to this as part of my Hacktoberfest's participation, in 2017, with a couple of pull requests to fix some identified issues.
 
-[pytest](https://docs.pytest.org/en/latest/) is a Python testing framework. I started using `pytest` for some of my Python projects and decided to contribute back by fixing up some identified problems in the documentation.
-
 ### Miscellaneous
 
 [polyglot](https://github.com/MiguelPires/polyglot) is a programming language detector written in Python 2.7. I wrote this to fiddle with Python and understand more about it.
@@ -35,6 +33,10 @@ Here is a list of some of the projects I have either created or worked on with o
 ### Scripting
 
 [wifi-password.pl](https://github.com/caramelomartins/wifi-password.pl) is a simple and fast way to get a WiFi password without having to go through Network settings or check the device. It was written in Perl so that I could get the basics of the language.
+
+### Testing
+
+[pytest](https://docs.pytest.org/en/latest/) is a Python testing framework. I started using `pytest` for some of my Python projects and decided to contribute back by fixing up some identified problems in the documentation. I am currently a contributor and a member of the _pytest-dev_ team.
 
 ### Translation
 
