@@ -20,5 +20,5 @@ It is not that I suddenly have a wealth of knowledge on the topic or that I can,
 
 ## References
 
-[1] https://docs.pytest.org/en/latest/
-[2] https://docs.python.org/3/library/unittest.html
+[1] https://docs.pytest.org/en/latest/  
+[2] https://docs.python.org/3/library/unittest.html  
