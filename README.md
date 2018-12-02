@@ -1,6 +1,6 @@
 # hugomartins.io
 
-[![Build Status](https://travis-ci.org/caramelomartins/website.svg?branch=master)](https://travis-ci.org/caramelomartins/website)
+[![Build Status](https://travis-ci.org/caramelomartins/hugomartins.io.svg?branch=master)](https://travis-ci.org/caramelomartins/hugomartins.io)
 
 This is the source code for my personal website that is currently hosted @ [hugomartins.io](http://hugomartins.io).
 
