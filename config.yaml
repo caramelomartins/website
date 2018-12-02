@@ -1,4 +1,3 @@
----
 baseurl: "http://hugomartins.io/"
 builddrafts: false
 contentdir: "content"
@@ -9,37 +8,41 @@ author: "Hugo Martins"
 theme: cocoa
 
 permalinks:
-    fixed: ":title/"
-    blog: "blog/:slug/"
+  fixed: ":title/"
+  blog: "blog/:slug/"
 
 menu:
-    main:
-        -   Name: "Blog"
-            Weight: -120
-            Identifier: "blog"
-            URL: "/blog/"
+  main:
+    - Name: "Blog"
+      Weight: -120
+      Identifier: "blog"
+      URL: "/blog/"
 
-        -   Name: "About"
-            Weight: -110
-            Identifier: "about"
-            URL: "/about/"
+    - Name: "About"
+      Weight: -110
+      Identifier: "about"
+      URL: "/about/"
 
-        -   Name: "Code"
-            Weight: -100
-            Identifier: "code"
-            URL: "/code/"
+    - Name: "Code"
+      Weight: -100
+      Identifier: "code"
+      URL: "/code/"
+
+    - Name: "Research"
+      Weight: -90
+      Identifier: "research"
+      URL: "/research/"
 
 params:
-    dateform: "Jan 2, 2006"
-    dateformfull: "Mon Jan 2 2006 15:04:05 MST"
+  dateform: "Jan 2, 2006"
+  dateformfull: "Mon Jan 2 2006 15:04:05 MST"
 
-    initials: "HM"
-    author: "Hugo Martins"
-    selfintro: "Thoughts on programming, engineering and curly brackets."
+  initials: "HM"
+  author: "Hugo Martins"
+  selfintro: "Thoughts on programming, engineering and curly brackets."
 
-    highlightjs: true
-    lang: "en"
+  highlightjs: true
+  lang: "en"
 
-    github: "https://github.com/caramelomartins"
-    linkedin: "https://www.linkedin.com/in/hugofcsmartins"
-...
+  github: "https://github.com/caramelomartins"
+  linkedin: "https://www.linkedin.com/in/hugofcsmartins"
