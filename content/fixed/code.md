@@ -14,6 +14,10 @@ Here is a list of some of the projects I have either created or worked on with o
 
 [dotfiles](https://github.com/caramelomartins/dotfiles) are the .files, scripts and environment setup used in my Ubuntu machine.
 
+### Decentralized Applications
+
+[Blocked](https://github.com/caramelomartins/Blocked) is a Python implementation of an Access Control application, for Educational Certificates, based on Hyperledger Sawtooth.
+
 ### Documentation
 
 [CFDocs](https://cfdocs.org/) is a repository that holds documentation for the ColdFusion Markup Language. Since I had the need to learn the language I have contributed with some documents to the project. I did this because I used the website as a source of knowledge and wanted to give back.

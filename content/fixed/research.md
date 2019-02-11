@@ -4,7 +4,7 @@ draft: false
 title: "Research"
 ---
 
-Since I started my Master's degree in Information and Enterprise Systems, I have conducted some research, mostly focused on the intersection of blockchain technology and access control. I am particularly interested in information security, access control and privacy.
+Since I started my Master's degree in Information and Enterprise Systems, I have conducted some research, mostly focused on the intersection of blockchain technology and access control. I am particularly interested in the topics of information security, access control and privacy.
 
 ## Publications
 
