@@ -10,6 +10,6 @@ Since I started my Master's degree in Information and Enterprise Systems, I have
 
 ### 2018
 
-H. S. Martins, “Exploring Permissioned Blockchains for Decentralizing Access Control”, Master’s Thesis, Instituto Superior Técnico, Lisbon, November 2018.
+1. H. S. Martins, “Exploring Permissioned Blockchains for Decentralizing Access Control”, Master’s Thesis, Instituto Superior Técnico, Lisbon, November 2018.
 
-H. S. Martins and S. L. Guerreiro, “Access Control Challenges in Enterprise Ecosystems: Blockchain-Based Technologies as an Opportunity for Enhanced Access Control”, in _Global Cyber Security Labor Shortage and International Business Risk_, Bryan Christiansen and Agnieszka Piekarz, Eds. Hershey, PA, USA: IGI Global, October 2018, pp. 51–76.
+2. H. S. Martins and S. L. Guerreiro, “Access Control Challenges in Enterprise Ecosystems: Blockchain-Based Technologies as an Opportunity for Enhanced Access Control”, in _Global Cyber Security Labor Shortage and International Business Risk_, Bryan Christiansen and Agnieszka Piekarz, Eds. Hershey, PA, USA: IGI Global, October 2018, pp. 51–76.
