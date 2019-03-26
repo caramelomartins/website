@@ -5,7 +5,7 @@ title: "About"
 ---
 I'm Hugo Martins, a software engineer and maker of tools from Lisbon, Portugal.
 
-I am currently a **Site Reliability Engineer** for [Claranet](http://www.claranet.co.uk/). I have a Bachelor's degree in Computer Science and I am working towards a Master's degree in Information and Business Systems. You can review some of my projects in the [Code](/code) section.
+I am currently a **Site Reliability Engineer** for [Claranet](http://www.claranet.co.uk/). I have a Bachelor's degree in Computer Science and a Master's degree in Information and Business Systems. You can review some of my projects in the [Code](/code) and [Research](/research) sections.
 
 I have been working with computers since I was 14 years old and my first program was written in [Visual BASIC 5.0](https://en.wikipedia.org/wiki/Visual_Basic) - it was a calculator. Unfortunately, I lost the code somewhere with the passing of time.
 
