@@ -9,7 +9,7 @@ categories:
 
 This essay is a slightly extended version of a [comment](https://github.com/pyinstaller/pyinstaller/issues/2389#issuecomment-476414044) I made on `PyInstaller`'s official repository, regarding `PyInstaller` and `PyFiglet` integration, as well as some known issues.
 
-[PyFiglet](https://github.com/pwaller/pyfiglet) allows you to create _really_ large letters out of ordinary text, as per [figlet](http://www.figlet.org/)'s, which essentially results in interesting displays commonly seen in command line interfaces. One example of this would be:
+[PyFiglet](https://github.com/pwaller/pyfiglet) allows you to create _really_ large letters out of ordinary text, as per [figlet](http://www.figlet.org/)'s own description, which essentially results in interesting displays commonly seen in command line interfaces. One example of this would be:
 
 ```shell
 # From wwww.figlet.org.
@@ -20,9 +20,9 @@ This essay is a slightly extended version of a [comment](https://github.com/pyin
 |_|_|_|\_\___|  \__|_| |_|_|___/
 ```
 
-Whenever you want to freeze a Python package with `PyInstaller`, `PyInstaller` will run a series of built-in or custom hooks which define what a specific package needs in order to be _freezable_. `PyFiglet` doesn't have a built-in hook in `PyInstaller` so someone [suggested](https://github.com/pyinstaller/pyinstaller/issues/2389) that a hook should be created so that everyone could use `PyInstaller` to freeze applications that us `PyFiglet`. This is where things started to become troublesome.
+Whenever you want to freeze a Python package with `PyInstaller`, `PyInstaller` will run a series of built-in or custom hooks which define what a specific package needs in order to be _freezable_. `PyFiglet` doesn't have a built-in hook in `PyInstaller` so someone [suggested](https://github.com/pyinstaller/pyinstaller/issues/2389) that a hook should be created so that everyone could use `PyInstaller` to freeze applications that use `PyFiglet`. This is where things started to become troublesome.
 
-As it appears, `PyFiglet` uses `pkg_resources`as a way to find out which fonts you would like to use for the displayed text. A runtime hook in `PyInstaller` - these are different from the pre-runtime hooks mentioned above - is registering `pkg_resources.NullProvider` which means that everything that uses `pkg_resources` will forcibly use the `NullProvider` triggering the error: `NotImplementedError: Can't perform this operation for unregistered loader type`. In essence, this means that the registered provider for `pkg_resources` is incompatible with importing _some_ packages for freezing.
+As it appears, `PyFiglet` uses `pkg_resources`as a way to find out which fonts you would like to use for the displayed text. A runtime hook in `PyInstaller` - these are different from the pre-runtime hooks mentioned above - is registering `pkg_resources.NullProvider` which means that everything that uses `pkg_resources` will forcibly use the `NullProvider`, triggering the error: `NotImplementedError: Can't perform this operation for unregistered loader type`. In essence, this means that the registered provider for `pkg_resources` is incompatible with importing _some_ packages for freezing.
 
 Since, we cannot register a new provider, as the `NullProvider` will always be registered first, and we also can't _easily_ change the core of `PyInstaller`, in order to register a different provider, I've come upon a workaround that builds on top of the suggestions in the mentioned discussion.
 
