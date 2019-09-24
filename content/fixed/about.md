@@ -3,7 +3,7 @@ date: "2015-08-22T06:42:21-07:00"
 draft: false
 title: "About"
 ---
-I'm Hugo Martins, a software engineer and maker of tools from Lisbon, Portugal.
+I'm Hugo Martins, a Software and Infrastructure Engineer from Lisbon, Portugal. I have an interest in building tools that expand the platforms with which people work, helping them create more and better things. Pythonista and soon-to-be Gopher.
 
 I am currently a **Site Reliability Engineer** for [Claranet](http://www.claranet.co.uk/). I have a Bachelor's degree in Computer Science and a Master's degree in Information and Business Systems. You can review some of my projects in the [Code](/code) and [Research](/research) sections.
 
