@@ -7,7 +7,7 @@ Here is a list of some of the projects I have either created or worked on with o
 
 ## Projects
 
-- [awesome-linters](https://github.com/caramelomartins/awesome-linters) is a curation of the best linting tools available for several programming languages.
+- [awesome-linters](https://awesome-linters.hugomartins.io) is a community-driven curation effort of the best linting tools available for several programming languages.
 - [dotfiles](https://github.com/caramelomartins/dotfiles) are the .files, scripts and environment setup used in my Ubuntu machine.
 - [Blocked](https://github.com/caramelomartins/Blocked) is a Python implementation of an Access Control application, for Educational Certificates, based on Hyperledger Sawtooth.
 - [polyglot](https://github.com/MiguelPires/polyglot) is a programming language detector written in Python 2.7. I wrote this to fiddle with Python and understand more about it.
