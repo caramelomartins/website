@@ -11,6 +11,10 @@ publishdir: "public"
 theme: candy
 builddrafts: false
 
+pygmentsCodeFences: true
+pygmentsCodeFencesGuessSyntax: true
+pygmentsStyle: solarized-dark
+
 menu:
   main:
     - name: "Essays"

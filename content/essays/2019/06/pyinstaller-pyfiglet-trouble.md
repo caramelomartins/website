@@ -29,24 +29,25 @@ Since, we cannot register a new provider, as the `NullProvider` will always be r
 
 We start by adding a custom hook to be run by `PyInstaller`, suggested in the [initial issue](https://github.com/pyinstaller/pyinstaller/issues/2389#issue-201124527):
 
-```
+```python
 # hook-pyfiglet.py
 
 from PyInstaller.utils.hooks import collect_all
-
 datas, binaries, hiddenimports = collect_all("pyfiglet")
 ```
 
 This will force `PyInstaller` to import all known `PyFiglet` modules, as well as data. Following that, we need to force registering a new provider, somewhere inside the script that will be frozen, before any use of `pyfiglet` occurs. An example of this will be:
 
-```
+```python
 import pkg_resources
 import sys
 
 from pyimod03_importers import FrozenImporter
 
 if getattr(sys, 'frozen', False):
-   pkg_resources.register_loader_type(FrozenImporter, pkg_resources.DefaultProvider)
+   pkg_resources.register_loader_type(
+       FrozenImporter, pkg_resources.DefaultProvider
+   )
 ```
 
 As I said in my comment, in essence, instead of registering `NullProvider`, we now register `FrozenImporter` with `DefaultProvider`, which inherits from `NullProvider` anyway - but doesn't error apparently.  I couldn't figure out any side effects from this but **I would advise caution**, when using this workaround, as well as thorough testing, to guarantee that there are no side effects that affect the script that is going to be frozen.
