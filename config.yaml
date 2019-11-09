@@ -1,57 +1,35 @@
 baseurl: "http://hugomartins.io/"
-builddrafts: false
+
+title: "Hugo Martins"
+description: "Writings on technology and engineering by Hugo Martins"
+author: "Hugo Martins"
+
 contentdir: "content"
 layoutdir: "layout"
 publishdir: "public"
-title: "caramelomartins' ~/"
-author: "Hugo Martins"
-theme: hugo-flex
 
-permalinks:
-  fixed: ":title/"
-  blog: "blog/:slug/"
+theme: candy
+builddrafts: false
 
 menu:
-  nav:
-    - Name: "Blog"
-      Weight: -120
-      Identifier: "blog"
-      URL: "/blog/"
+  main:
+    - name: "Essays"
+      identifier: "Essays"
+      url: "/essays/"
+      weight: -110
 
-    - Name: "About"
-      Weight: -110
-      Identifier: "about"
-      URL: "/about/"
+    - name: "About"
+      identifier: "about"
+      url: "/about/"
+      weight: -100
 
-    - Name: "Code"
-      Weight: -100
-      Identifier: "code"
-      URL: "/code/"
+    - name: "Code"
+      identifier: "code"
+      url: "/code/"
+      weight: -90
 
-    - Name: "Research"
-      Weight: -90
-      Identifier: "research"
-      URL: "/research/"
+    - name: "Research"
+      identifier: "research"
+      url: "/research/"
+      weight: -80
 
-params:
-  dateform: "Jan 2, 2006"
-  dateformfull: "Mon Jan 2 2006 15:04:05 MST"
-
-  initials: "HM"
-  author: "Hugo Martins"
-  selfintro: "Thoughts on programming, engineering and curly brackets."
-
-  highlightjs: true
-  lang: "en"
-
-  github: "https://github.com/caramelomartins"
-  linkedin: "https://www.linkedin.com/in/hugofcsmartins"
-
-  # Hugo Flex Specific
-  color: darkslategray  # Any color in CSS syntax
-  width: 42rem  # Any length in CSS syntax
-  footer: Except where otherwise noted, content on this site is licensed under
-    a <a href="http://creativecommons.org/licenses/by/4.0/" rel="license">
-    Creative Commons Attribution 4.0 International License</a>.
-  rss: To subscribe to this RSS feed, copy its address and paste it into your
-    favorite feed reader.
