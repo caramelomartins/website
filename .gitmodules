@@ -7,4 +7,4 @@
 	url = https://github.com/de-souza/hugo-flex.git
 [submodule "themes/candy"]
 	path = themes/candy
-	url = git@github.com:caramelomartins/candy.git
+	url = https://github.com/caramelomartins/candy.git
