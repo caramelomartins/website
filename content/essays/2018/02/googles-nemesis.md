@@ -2,8 +2,6 @@
 title: "\"Google's nemesis...\""
 date: 2018-02-14T16:21:00+01:00
 draft: false
-categories:
-    - external
 ---
 
 An excellent article, [Google’s nemesis: meet the British couple who took on a giant, won... and cost it £2.1 billion](http://www.wired.co.uk/article/fine-google-competition-eu-shivaun-adam-raff), written by Rowland Manthorpe, in Wired:

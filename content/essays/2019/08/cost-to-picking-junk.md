@@ -3,8 +3,6 @@ title: "A Cost to Picking Junk"
 date: 2019-08-04T09:31:00+00:00
 draft: false
 summary: Seth Godin wrote an interesting small piece about [curation in times of internet giants](https://seths.blog/2019/07/surrendering-curation-and-promotion/).
-categories:
-  - external
 ---
 
 Seth Godin wrote an interesting small piece about [curation in times of internet giants](https://seths.blog/2019/07/surrendering-curation-and-promotion/).

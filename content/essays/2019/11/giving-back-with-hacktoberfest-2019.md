@@ -5,6 +5,7 @@ draft: false
 summary: Hacktoberfest 2019 just finished and this is my personal story of achievement and failure, all at the same time. I only started Hacktoberfest halfway into October but I still achieved 3 PRs. I am proud of that outcome though.
 categories:
 - oss
+tags:
 - hacktoberfest
 ---
 

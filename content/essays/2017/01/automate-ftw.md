@@ -3,7 +3,6 @@ title: "Automate Simple Deploy Workflows - Cool!"
 draft: false
 date: "2017-01-08T23:44:20Z"
 categories:
-    - personal
     - bash
 ---
 

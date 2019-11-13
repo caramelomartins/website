@@ -4,6 +4,7 @@ date: 2017-07-11T23:10:42+01:00
 draft: false
 categories:
     - bash
+tags:
     - floating-points
 ---
 

@@ -2,8 +2,6 @@
 title: "Time & Choice"
 draft: false
 date: "2017-02-19T20:43:00Z"
-categories:
-    - personal
 ---
 
 Time is a valid asset. It's the most valuable asset we have in our lives. It doesn't scale. It's impossible to scale time.

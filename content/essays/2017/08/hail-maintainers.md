@@ -2,9 +2,6 @@
 title: "An Ode to Maintainers"
 date: 2017-08-01T23:09:12+01:00
 draft: false
-categories:
-    - reads
-    - external
 ---
 
 This week I read an incredible article about [maintainers](https://aeon.co/essays/innovation-is-overvalued-maintenance-often-matters-more).This article is mostly focused towards infrastructure maintenance. It completely adapts itself to the current reality of software development.
